@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SRC", "SRC", "{B9CB38C1-22CF-4FCB-8CE9-E988AC61D701}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TEST", "TEST", "{6DE683FC-E32C-4C2F-A171-7AE4BC9ADFFF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MobileApp", "MobileApp", "{DC25284B-1CCC-4A49-8356-95084E73FA93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarListingMAUI.APP", "CarListingMAUI.APP\CarListingMAUI.APP.csproj", "{41A00159-E698-4BA7-B0CA-4FB9A3966B00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{41A00159-E698-4BA7-B0CA-4FB9A3966B00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41A00159-E698-4BA7-B0CA-4FB9A3966B00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41A00159-E698-4BA7-B0CA-4FB9A3966B00}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{41A00159-E698-4BA7-B0CA-4FB9A3966B00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41A00159-E698-4BA7-B0CA-4FB9A3966B00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41A00159-E698-4BA7-B0CA-4FB9A3966B00}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DC25284B-1CCC-4A49-8356-95084E73FA93} = {B9CB38C1-22CF-4FCB-8CE9-E988AC61D701}
+		{41A00159-E698-4BA7-B0CA-4FB9A3966B00} = {DC25284B-1CCC-4A49-8356-95084E73FA93}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7DD09C1D-D0DA-44EC-B32F-555756CE80F9}
+	EndGlobalSection
+EndGlobal
