@@ -1,4 +1,7 @@
-﻿namespace CarListingMAUI.APP
+﻿using CarListingMAUI.APP.Services;
+using CarListingMAUI.APP.ViewModels;
+
+namespace CarListingMAUI.APP
 {
     public static class MauiProgram
     {
@@ -13,6 +16,14 @@
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 });
 
+            #region Ioc
+
+            builder.Services.AddSingleton<ShowCarListViewModel>();
+            builder.Services.AddSingleton<CarService>();
+            builder.Services.AddSingleton<MainPage>();
+            
+
+            #endregion
             return builder.Build();
         }
     }
